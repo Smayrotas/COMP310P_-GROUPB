@@ -1,6 +1,4 @@
 # COMP310P_GROUPB
-This is the feature branch.
-println("kuytrfky")
+Stylianos Mavrotas and Suseeven Sarvanantharajah
 
-
-Description of the project: Sports events for the Olympics in London.
+EventFinder, Event Management System
