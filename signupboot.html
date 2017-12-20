@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<head>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+    <html lang="en">
+
+    <meta charset="utf-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <meta name="description" content="">
+
+    <meta name="author" content="">
+
+
+
+
+    <title>Signin</title>
+
+
+
+    <style>
+        h1 {
+            text-align: center;
+        }
+        #signup {
+            width: 20em; height:1em;
+            input: align right;
+            margin: 0 auto;
+            float: right;
+        }
+        #forgot {
+            width: 20em; height:1em;
+            margin: 0 auto;
+            float: right;
+        }
+
+        form {
+            border: 3px solid #f1f1f1;
+            background-colour: grey;
+        }
+
+        body {
+            font-family: helvetica, sans-serif;
+            margin: 0px;
+        }
+        sign {
+            position: absolute;
+            bottom:50;
+            padding: 10px;
+            background: black;
+        }
+
+    </style>
+
+
+    </head>
+
+
+
+
+<body>
+
+<div>
+    <h1><a href="index.html">EventFinder</a></h1>
+</div>
+<div >
+    <h1> Sign in </h1></br>
+</div>
+<div class="sign">
+
+
+    <form id="LoginForm" class="form-signin" method="post" action="SecureLoginLogOut.php">
+
+        <h2 class="form-signin-heading">Please sign in</h2>
+
+        <label for="inputEmail" class="sr-only">Email address</label>
+
+                <input type="email" name='EmailLogin' id="inputEmail" class="form-control" placeholder="Email address" required autofocus>
+
+        <label for="inputPassword" class="sr-only">Password</label>
+
+                <input type="password" name="PasswordLogin" id="inputPassword" class="form-control" placeholder="Password" required>
+
+        <div class="checkbox">
+
+            <div class="signup"id="signup">
+
+                <button id="button1" class="btn btn-lg btn-primary btn-block" type="submit">Sign up</button>
+
+            </div>
+        </div>
+    </form>
+
+</div>
+
+<script type="text/javascript" src="/js/jquery-3.2.1%20(1).js"></script>
+<script type="text/javascript" src="js/JavaScriptFunctions.js"></script>
+<!-- /container -->
+</body>
+</html>
+
+</body>
