@@ -1,0 +1,96 @@
+
+<!DOCTYPE html>
+<head>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+
+    <html lang="en">
+
+    <meta charset="utf-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <meta name="description" content="">
+
+    <meta name="author" content="">
+
+    <link rel="icon" href="../../../../favicon.ico">
+
+
+    <title>SignUp</title>
+
+
+    <!-- Bootstrap core CSS -->
+
+    <link href="../../../../dist/css/bootstrap.min.css" rel="stylesheet">
+
+
+    <!-- Custom styles for this template -->
+
+    <link href="css/signupCSS.css" rel="stylesheet">
+
+
+
+    </head>
+
+
+
+
+<body>
+
+<div>
+    <h1><a href="index.html">EventFinder</a></h1>
+</div>
+<div >
+<div class="first">
+    <h1> Sign Up </h1></br>
+</div>
+<form method="post" action="SecureLoginLogOut.php">
+<br>
+
+    <div class="input-group"id="box1">
+        <span class="input-group-addon" id="basic-addon31">First Name</span>
+        <input type="text" name="FirstName" class="form-control" id="firstname1" aria-describedby="basic-addon3">
+    </div>
+    <br></br>
+    <div class="input-group"id="box2">
+        <span class="input-group-addon" id="basic-addon32">Last Name</span>
+        <input type="text" name="LastName" class="form-control" id="lastname" aria-describedby="basic-addon3">
+    </div>
+    <br></br>
+    <div class="input-group"id="box3">
+        <span class="input-group-addon" id="basic-addon33">Email</span>
+        <input type="text" name="Email" class="form-control" id="email" aria-describedby="basic-addon3">
+    </div>
+
+    <br></br>
+    <div class="input-group"id="typeOfUser">
+        <span class="input-group-addon" id="basic-addon34">Type of User</span>
+
+
+            <select name="UserType" id="type">
+                <option value="customer">customer</option>
+                <option value="Host">host</option>
+                <option value="Admin">admin</option>
+            </select>
+    </div>
+
+
+    <br></br>
+    <div class="input-group"id="password1">
+        <span class="input-group-addon" id="basic-addon3">Password</span>
+        <input type="text"  name="Password" class="form-control" id="password" aria-describedby="basic-addon3">
+    </div>
+
+    <br></br>
+    <div class="signup"id="signup"id="box">
+
+        <button id="buttonSignup" class="btn btn-lg btn-primary btn-block" type="submit">Sign up</button>
+    </div>
+
+</form>
+
+</div>
+<script type="text/javascript" src="/js/jquery-3.2.1%20(1).js"></script>
+<script type="text/javascript" src="js/SignUp.js"></script>
+</body>
+</html>

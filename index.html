@@ -1,0 +1,60 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/MainCSSStylesheet.css">
+    <title>Event Finder</title>
+</head>
+
+<body name="body1" id="Body">
+
+<nav id="topNavBar" class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="#">EventFinder</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <ul class="navbar-nav mr-auto">
+        <li class="nav-item active">
+            <a id="Home" class="nav-link" href="index.html">Home<span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item active">
+            <a id="CreateEvent" class="nav-link" href="NotLoggedIn.php">Create Event<span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item active">
+            <a id="BookedEvents"class="nav-link" href="NotLoggedIn.php">Booked Events<span class="sr-only">(current)</span></a>
+        </li>
+    </ul>
+        <a class="nav-link" href="signupboot.html" >Login </a>
+        <a class="nav-link" href="signup.html">Sign-up  </a>
+        <form class="form-inline my-2 my-lg-0" method="post" action="controler.php">
+            <input id="input2" name="textInput2" class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+            <button id="button2" class="btn btn-outline-success my-2 my-sm-0"  onclick="return " type="submit">Search</button>
+        </form>
+    </div>
+</nav>
+<div class="large container" type="" style="position: relative;left: 400px;top:250px; ">
+
+
+
+                <div class="card" style="width: 20rem;">
+                    <div class="card-block">
+
+                        <p class="card-text">Welcome to EventFinder. To navigate around, the best choise would be to login. There are three types
+                        of login users, admin, customer and host. As a customer you will be able to use the top left button "Booked Events", to check
+                            your previously booked events. To book an event immediately, please use the top right input search bar which will redirect your
+                            to different event choises.Hosts will be able to use the create event button on the top left only when logged in. New events can easily be created with the functionality of the website.
+                        </p>
+
+                    </div>
+                </div>
+
+
+
+</div>
+
+<script type="text/javascript" src="/js/jquery-3.2.1%20(1).js"></script>
+<script type="text/javascript" src="js/JavaScriptFunctions.js"></script>
+
+</body>
+</html>
